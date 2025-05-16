@@ -1,0 +1,115 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.5">
+  <diagram name="第 1 页" id="f4iMTYmlaeojXxe4YxN6">
+    <mxGraphModel dx="1757" dy="2208" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="osVFPch8rNs1vcR92irb-42" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="170" y="-8" width="770" height="418" as="geometry" />
+        </mxCell>
+        <mxCell id="osVFPch8rNs1vcR92irb-16" value="物理总线数据流" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="455" y="20" width="172" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="osVFPch8rNs1vcR92irb-17" value="多协议嗅探引擎" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="455" y="124" width="172" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="osVFPch8rNs1vcR92irb-18" value="协议识别" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="460" y="228" width="170" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="osVFPch8rNs1vcR92irb-19" value="自适应协议转换器" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="447" y="332" width="188" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="osVFPch8rNs1vcR92irb-20" value="协同总线接口入队(DMA)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="447" y="436" width="188" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="osVFPch8rNs1vcR92irb-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="osVFPch8rNs1vcR92irb-21" target="osVFPch8rNs1vcR92irb-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="osVFPch8rNs1vcR92irb-21" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="170" y="530" width="770" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="osVFPch8rNs1vcR92irb-22" value="本地预测算法" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="424.5" y="640" width="156" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="osVFPch8rNs1vcR92irb-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.685;entryY=0.061;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="osVFPch8rNs1vcR92irb-23" target="osVFPch8rNs1vcR92irb-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="836" y="640" />
+              <mxPoint x="665" y="640" />
+              <mxPoint x="665" y="710" />
+              <mxPoint x="532" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="osVFPch8rNs1vcR92irb-23" value="中心预测算法" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="750" y="555" width="172" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="osVFPch8rNs1vcR92irb-24" value="本地控制算法" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="422.5" y="730" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="osVFPch8rNs1vcR92irb-25" value="优化模型下发" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="700" y="740" width="156" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="osVFPch8rNs1vcR92irb-26" value="控制效果监测" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1085" y="580" width="156" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="osVFPch8rNs1vcR92irb-27" value="执行反馈至协议层" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="150" y="990" width="188" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="osVFPch8rNs1vcR92irb-28" value="" style="curved=1;startArrow=none;endArrow=block;rounded=0;noEdgeStyle=1;orthogonal=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="osVFPch8rNs1vcR92irb-16" target="osVFPch8rNs1vcR92irb-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="osVFPch8rNs1vcR92irb-29" value="" style="curved=1;startArrow=none;endArrow=block;rounded=0;noEdgeStyle=1;orthogonal=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="osVFPch8rNs1vcR92irb-17" target="osVFPch8rNs1vcR92irb-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="osVFPch8rNs1vcR92irb-30" value="" style="curved=1;startArrow=none;endArrow=block;rounded=0;noEdgeStyle=1;orthogonal=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="osVFPch8rNs1vcR92irb-18" target="osVFPch8rNs1vcR92irb-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="osVFPch8rNs1vcR92irb-31" value="" style="curved=1;startArrow=none;endArrow=block;rounded=0;noEdgeStyle=1;orthogonal=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="osVFPch8rNs1vcR92irb-19" target="osVFPch8rNs1vcR92irb-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="osVFPch8rNs1vcR92irb-32" value="" style="curved=1;startArrow=none;endArrow=block;rounded=0;noEdgeStyle=1;orthogonal=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="osVFPch8rNs1vcR92irb-20" target="osVFPch8rNs1vcR92irb-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="osVFPch8rNs1vcR92irb-35" value="" style="startArrow=none;endArrow=block;rounded=0;orthogonal=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="osVFPch8rNs1vcR92irb-22" target="osVFPch8rNs1vcR92irb-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="osVFPch8rNs1vcR92irb-40" value="" style="startArrow=none;endArrow=block;rounded=0;orthogonal=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="osVFPch8rNs1vcR92irb-24" target="osVFPch8rNs1vcR92irb-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="244" y="770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="osVFPch8rNs1vcR92irb-44" value="协议动态适配层" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="216" y="20" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="osVFPch8rNs1vcR92irb-45" value="&lt;span&gt;分布式算法协同层&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="170" y="555" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="osVFPch8rNs1vcR92irb-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="osVFPch8rNs1vcR92irb-24" target="osVFPch8rNs1vcR92irb-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="osVFPch8rNs1vcR92irb-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="osVFPch8rNs1vcR92irb-48" target="osVFPch8rNs1vcR92irb-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="osVFPch8rNs1vcR92irb-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="osVFPch8rNs1vcR92irb-48" target="osVFPch8rNs1vcR92irb-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="osVFPch8rNs1vcR92irb-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="osVFPch8rNs1vcR92irb-48" target="osVFPch8rNs1vcR92irb-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="577" />
+              <mxPoint x="400" y="667" />
+              <mxPoint x="402" y="667" />
+              <mxPoint x="402" y="757" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="osVFPch8rNs1vcR92irb-48" value="任务协调器" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="461" y="550" width="160" height="54" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
