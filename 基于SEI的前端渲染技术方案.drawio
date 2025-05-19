@@ -31,6 +31,14 @@
         <mxCell id="bAwWkrZDaCntov1XnDNh-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="bAwWkrZDaCntov1XnDNh-9" source="bAwWkrZDaCntov1XnDNh-18" target="bAwWkrZDaCntov1XnDNh-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="bAwWkrZDaCntov1XnDNh-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="bAwWkrZDaCntov1XnDNh-9" source="bAwWkrZDaCntov1XnDNh-18" target="bAwWkrZDaCntov1XnDNh-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="115" />
+              <mxPoint x="250" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="bAwWkrZDaCntov1XnDNh-18" value="Demux" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="bAwWkrZDaCntov1XnDNh-9">
           <mxGeometry x="150" y="100.00333333333334" width="80" height="30.66666666666667" as="geometry" />
         </mxCell>
@@ -63,6 +71,12 @@
         </mxCell>
         <mxCell id="bAwWkrZDaCntov1XnDNh-51" value="Audio Packet|Video Packet|Subtitle Packet..." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="bAwWkrZDaCntov1XnDNh-9">
           <mxGeometry x="10" y="84.06" width="200" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="bAwWkrZDaCntov1XnDNh-53" value="AI信息" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="bAwWkrZDaCntov1XnDNh-9">
+          <mxGeometry x="460" y="145" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bAwWkrZDaCntov1XnDNh-55" value="Video AVPacket" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="bAwWkrZDaCntov1XnDNh-9">
+          <mxGeometry x="295" y="165" width="50" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
