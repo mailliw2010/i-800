@@ -1,0 +1,179 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0" version="27.1.5">
+  <diagram name="第 1 页" id="i4zDwKr-480T4ZqlYLz5">
+    <mxGraphModel dx="1076" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sWlQ1pEmlknpdHxI84hu-36" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="647" y="320" width="396" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="sWlQ1pEmlknpdHxI84hu-2" value="物理总线数据流" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="743" y="110" width="172" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="sWlQ1pEmlknpdHxI84hu-4" value="多协议嗅探引擎" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="751" y="410" width="172" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="sWlQ1pEmlknpdHxI84hu-5" value="协议识别" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="778" y="530" width="118" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="sWlQ1pEmlknpdHxI84hu-6" value="自适应协议转换器" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="743" y="690" width="188" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="sWlQ1pEmlknpdHxI84hu-7" value="协议适配数据" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="759" y="820" width="156" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="sWlQ1pEmlknpdHxI84hu-8" value="协同总线接口" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="759" y="1020" width="156" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="sWlQ1pEmlknpdHxI84hu-9" value="分布式算法协同层" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="386" y="1260" width="182" height="182" as="geometry" />
+        </mxCell>
+        <mxCell id="sWlQ1pEmlknpdHxI84hu-10" value="自学习模块" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="312" y="1550" width="140" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="sWlQ1pEmlknpdHxI84hu-11" value="本地模型参数" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1677" width="156" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="sWlQ1pEmlknpdHxI84hu-12" value="中心节点模型聚合与优化" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="264" y="1803" width="236" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="sWlQ1pEmlknpdHxI84hu-13" value="任务协调器" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="554" y="1550" width="140" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="sWlQ1pEmlknpdHxI84hu-14" value="联合决策结果" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1677" width="156" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="sWlQ1pEmlknpdHxI84hu-15" value="协议动态适配层" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="759" y="1360" width="172" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="sWlQ1pEmlknpdHxI84hu-16" value="机电设备控制" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="767" y="1550" width="156" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="sWlQ1pEmlknpdHxI84hu-17" value="数据采集与嗅探" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="926" y="1677" width="172" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="sWlQ1pEmlknpdHxI84hu-18" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.536;exitY=1.044;rounded=0;exitDx=0;exitDy=0;entryX=0.472;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="sWlQ1pEmlknpdHxI84hu-2" target="sWlQ1pEmlknpdHxI84hu-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="834" y="230" />
+            </Array>
+            <mxPoint x="843" y="130" as="sourcePoint" />
+            <mxPoint x="850" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sWlQ1pEmlknpdHxI84hu-19" value="实时捕获" style="curved=1;startArrow=none;endArrow=block;exitX=0.474;exitY=0.001;entryX=0.5;entryY=0.01;rounded=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="sWlQ1pEmlknpdHxI84hu-36" target="sWlQ1pEmlknpdHxI84hu-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="832.9999999999998" y="510" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sWlQ1pEmlknpdHxI84hu-20" value="改进型滑动窗口与状态机解析" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="sWlQ1pEmlknpdHxI84hu-4" target="sWlQ1pEmlknpdHxI84hu-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sWlQ1pEmlknpdHxI84hu-21" value="识别结果" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="sWlQ1pEmlknpdHxI84hu-5" target="sWlQ1pEmlknpdHxI84hu-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sWlQ1pEmlknpdHxI84hu-22" value="动态映射与语义校验" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="sWlQ1pEmlknpdHxI84hu-6" target="sWlQ1pEmlknpdHxI84hu-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sWlQ1pEmlknpdHxI84hu-23" value="DMA第一通道" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="sWlQ1pEmlknpdHxI84hu-7" target="sWlQ1pEmlknpdHxI84hu-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sWlQ1pEmlknpdHxI84hu-24" value="高优先级传输" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.75;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="sWlQ1pEmlknpdHxI84hu-8" target="sWlQ1pEmlknpdHxI84hu-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="477" y="1260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sWlQ1pEmlknpdHxI84hu-25" value="数据输入" style="curved=1;startArrow=none;endArrow=block;exitX=0.12;exitY=1;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="sWlQ1pEmlknpdHxI84hu-9" target="sWlQ1pEmlknpdHxI84hu-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="382" y="1514" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sWlQ1pEmlknpdHxI84hu-26" value="联邦学习本地训练" style="curved=1;startArrow=none;endArrow=block;exitX=0.27;exitY=1.01;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="sWlQ1pEmlknpdHxI84hu-10" target="sWlQ1pEmlknpdHxI84hu-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="308" y="1641" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sWlQ1pEmlknpdHxI84hu-27" value="上传参数" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.37;entryY=0;rounded=0;" edge="1" parent="1" source="sWlQ1pEmlknpdHxI84hu-11" target="sWlQ1pEmlknpdHxI84hu-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="308" y="1767" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sWlQ1pEmlknpdHxI84hu-28" value="模型更新" style="curved=1;startArrow=none;endArrow=block;exitX=0.63;exitY=0;entryX=0.72;entryY=1.01;rounded=0;" edge="1" parent="1" source="sWlQ1pEmlknpdHxI84hu-12" target="sWlQ1pEmlknpdHxI84hu-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="455" y="1767" />
+              <mxPoint x="455" y="1641" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sWlQ1pEmlknpdHxI84hu-29" value="任务分发与协调" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.93;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="sWlQ1pEmlknpdHxI84hu-9" target="sWlQ1pEmlknpdHxI84hu-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="624" y="1514" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sWlQ1pEmlknpdHxI84hu-30" value="云边算法协同决策" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.02;entryY=0;rounded=0;" edge="1" parent="1" source="sWlQ1pEmlknpdHxI84hu-13" target="sWlQ1pEmlknpdHxI84hu-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="624" y="1641" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sWlQ1pEmlknpdHxI84hu-31" value="DMA第二通道" style="curved=1;startArrow=none;endArrow=block;exitX=0.96;exitY=0;entryX=0.86;entryY=0.99;rounded=0;" edge="1" parent="1" source="sWlQ1pEmlknpdHxI84hu-14" target="sWlQ1pEmlknpdHxI84hu-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="966" y="1641" />
+              <mxPoint x="966" y="1260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sWlQ1pEmlknpdHxI84hu-32" value="硬实时反馈" style="curved=1;startArrow=none;endArrow=block;exitX=0.53;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="sWlQ1pEmlknpdHxI84hu-8" target="sWlQ1pEmlknpdHxI84hu-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="845" y="1260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sWlQ1pEmlknpdHxI84hu-33" value="执行指令" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="sWlQ1pEmlknpdHxI84hu-15" target="sWlQ1pEmlknpdHxI84hu-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sWlQ1pEmlknpdHxI84hu-34" value="控制效果监测" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.08;entryY=0;rounded=0;" edge="1" parent="1" source="sWlQ1pEmlknpdHxI84hu-16" target="sWlQ1pEmlknpdHxI84hu-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="845" y="1641" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sWlQ1pEmlknpdHxI84hu-35" value="持续反馈" style="curved=1;startArrow=none;endArrow=block;exitX=0.74;exitY=0;entryX=1;entryY=0.5;rounded=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sWlQ1pEmlknpdHxI84hu-17" target="sWlQ1pEmlknpdHxI84hu-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1107" y="1641" />
+              <mxPoint x="1380" y="760" />
+              <mxPoint x="1150" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
