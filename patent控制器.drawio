@@ -64,6 +64,14 @@
         <mxCell id="sWlQ1pEmlknpdHxI84hu-7" value="协议适配数据" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="759" y="820" width="156" height="54" as="geometry" />
         </mxCell>
+        <mxCell id="6QbdugIMN3S3a9xzyig_-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="sWlQ1pEmlknpdHxI84hu-8" target="sWlQ1pEmlknpdHxI84hu-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="876" y="990" />
+              <mxPoint x="876" y="990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="sWlQ1pEmlknpdHxI84hu-8" value="B 协同总线接口" style="whiteSpace=wrap;strokeWidth=2;fontStyle=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="759" y="1020" width="156" height="54" as="geometry" />
         </mxCell>
@@ -73,8 +81,8 @@
         <mxCell id="sWlQ1pEmlknpdHxI84hu-14" value="联合决策结果" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="720" y="1700" width="156" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="sWlQ1pEmlknpdHxI84hu-16" value="机电设备控制" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="759" y="1550" width="156" height="54" as="geometry" />
+        <mxCell id="sWlQ1pEmlknpdHxI84hu-16" value="机电设备控制模块" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="759" y="1510" width="156" height="54" as="geometry" />
         </mxCell>
         <mxCell id="sWlQ1pEmlknpdHxI84hu-18" value="" style="startArrow=none;endArrow=block;exitX=0.536;exitY=1.044;rounded=0;exitDx=0;exitDy=0;entryX=0.472;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="sWlQ1pEmlknpdHxI84hu-2" target="sWlQ1pEmlknpdHxI84hu-36" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -103,7 +111,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sWlQ1pEmlknpdHxI84hu-23" value="DMA第一通道" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" parent="1" source="sWlQ1pEmlknpdHxI84hu-7" target="sWlQ1pEmlknpdHxI84hu-8" edge="1">
+        <mxCell id="sWlQ1pEmlknpdHxI84hu-23" value="DMA第一通道" style="curved=1;startArrow=none;endArrow=block;exitX=0.25;exitY=1;entryX=0.25;entryY=0;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" parent="1" source="sWlQ1pEmlknpdHxI84hu-7" target="sWlQ1pEmlknpdHxI84hu-8" edge="1">
           <mxGeometry x="1" y="-291" relative="1" as="geometry">
             <Array as="points" />
             <mxPoint x="14" y="90" as="offset" />
@@ -139,9 +147,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sWlQ1pEmlknpdHxI84hu-33" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0.01;rounded=0;exitDx=0;exitDy=0;" parent="1" source="sWlQ1pEmlknpdHxI84hu-8" target="sWlQ1pEmlknpdHxI84hu-16" edge="1">
+        <mxCell id="sWlQ1pEmlknpdHxI84hu-33" value="" style="startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0.01;rounded=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="sWlQ1pEmlknpdHxI84hu-8" target="sWlQ1pEmlknpdHxI84hu-16" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
             <mxPoint x="845.0000000000002" y="1414" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
